@@ -1,6 +1,7 @@
 
 import './App.css'
 import SimpleForm from './Component/SimpleForm/SimpleForm'
+import StatfullForm from './Component/StateWithForm/StatfullForm'
 
 function App() {
 
@@ -13,6 +14,10 @@ function App() {
             Learn Table with onSubmit
           </h2>
           <SimpleForm></SimpleForm>
+          
+        </div>
+        <div className='mt-7'>
+         <StatfullForm></StatfullForm>
         </div>
       </div>
     </>
